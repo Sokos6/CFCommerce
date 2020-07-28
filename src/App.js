@@ -1,8 +1,25 @@
-import React from "react";
-import "./App.css";
+import React, { Component } from 'react';
+import { SportsStoreDataStore, CFCommerceDataStore } from './data/DataStore';
+import { Provider } from 'react-redux';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+  Redirect,
+} from 'react-router-dom';
+import { ShopConnector } from './shop/ShopConnector';
 
-function App() {
-  return <div className="App"></div>;
+export default class App extends Component {
+  render() {
+    return (
+      <Provider store={CFCommerceDataStore}>
+        <Router>
+          <Switch>
+            <Route path='/shop' component={ShopConnector} />
+            <Redirect to='/shop' />
+          </Switch>
+        </Router>
+      </Provider>
+    );
+  }
 }
-
-export default App;
