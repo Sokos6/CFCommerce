@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { SportsStoreDataStore, CFCommerceDataStore } from './data/DataStore';
+import { CFCommerceDataStore } from './data/DataStore';
 import { Provider } from 'react-redux';
 import {
   BrowserRouter as Router,
