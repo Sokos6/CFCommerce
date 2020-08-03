@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { ToggleLink } from '../ToggleLink';
 
 export class CategoryNavigation extends Component {
   render() {
     return (
       <>
-        <ToggleLink to={this.props.baseUrl} exact={true}></ToggleLink>
+        <ToggleLink to={this.props.baseUrl} exact={true}>All</ToggleLink>
         {this.props.categories &&
           this.props.categories.map((cat) => (
             <ToggleLink
