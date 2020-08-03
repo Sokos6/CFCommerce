@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/CFCommerce/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/CFCommerce/static/js/main.729fed93.chunk.js",
-    "main.js.map": "/CFCommerce/static/js/main.729fed93.chunk.js.map",
+    "main.js": "/CFCommerce/static/js/main.176159b8.chunk.js",
+    "main.js.map": "/CFCommerce/static/js/main.176159b8.chunk.js.map",
     "runtime-main.js": "/CFCommerce/static/js/runtime-main.8dd68a6a.js",
     "runtime-main.js.map": "/CFCommerce/static/js/runtime-main.8dd68a6a.js.map",
     "static/css/2.2d2fec6f.chunk.css": "/CFCommerce/static/css/2.2d2fec6f.chunk.css",
     "static/js/2.9429d5fe.chunk.js": "/CFCommerce/static/js/2.9429d5fe.chunk.js",
     "static/js/2.9429d5fe.chunk.js.map": "/CFCommerce/static/js/2.9429d5fe.chunk.js.map",
     "index.html": "/CFCommerce/index.html",
-    "precache-manifest.24b613c3582ab0309b3b9b4573d0a6da.js": "/CFCommerce/precache-manifest.24b613c3582ab0309b3b9b4573d0a6da.js",
+    "precache-manifest.95931e15f41769c4b34ec046e0183672.js": "/CFCommerce/precache-manifest.95931e15f41769c4b34ec046e0183672.js",
     "service-worker.js": "/CFCommerce/service-worker.js",
     "static/css/2.2d2fec6f.chunk.css.map": "/CFCommerce/static/css/2.2d2fec6f.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/CFCommerce/static/css/main.5ecd60fb.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.2d2fec6f.chunk.css",
     "static/js/2.9429d5fe.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.729fed93.chunk.js"
+    "static/js/main.176159b8.chunk.js"
   ]
 }
