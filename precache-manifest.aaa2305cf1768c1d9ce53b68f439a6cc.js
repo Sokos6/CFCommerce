@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "583616ceb58329cc613a3bf86eeb7a64",
+    "revision": "739d0aae8d4006993ecaf3db048eaf78",
     "url": "/CFCommerce/index.html"
   },
   {
-    "revision": "403dfbd30b65e8d8c567",
+    "revision": "43c0436d143557f11a8c",
     "url": "/CFCommerce/static/css/2.2d2fec6f.chunk.css"
   },
   {
-    "revision": "06ed885efb0a24203234",
+    "revision": "9c9cb5db5e6470bc0496",
     "url": "/CFCommerce/static/css/main.5ecd60fb.chunk.css"
   },
   {
-    "revision": "403dfbd30b65e8d8c567",
-    "url": "/CFCommerce/static/js/2.d05b3663.chunk.js"
+    "revision": "43c0436d143557f11a8c",
+    "url": "/CFCommerce/static/js/2.95e287a6.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/CFCommerce/static/js/2.d05b3663.chunk.js.LICENSE.txt"
+    "url": "/CFCommerce/static/js/2.95e287a6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "06ed885efb0a24203234",
-    "url": "/CFCommerce/static/js/main.66614bfd.chunk.js"
+    "revision": "9c9cb5db5e6470bc0496",
+    "url": "/CFCommerce/static/js/main.e9fe7354.chunk.js"
   },
   {
     "revision": "52e3ce5e5af6e1ec9524",
