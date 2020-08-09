@@ -10,13 +10,13 @@ export class CartSummary extends Component {
         </span>
       );
     } else {
-      return <span>Your Cart: (empty) </span>;
+      return <span>Your cart: (empty) </span>;
     }
   };
 
   getLinkClasses = () => {
     return `btn btn-sm bg-dark text-white
-      ${this.props.cartItems === 0 ? 'disabled' : ''}`;
+            ${this.props.cartItems === 0 ? 'disabled' : ''}`;
   };
 
   render() {

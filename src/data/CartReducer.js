@@ -8,7 +8,6 @@ export const CartReducer = (storeData, action) => {
       const q = action.payload.quantity;
 
       let existing = newStore.cart.find((item) => item.product.id === p.id);
-
       if (existing) {
         existing.quantity += q;
       } else {

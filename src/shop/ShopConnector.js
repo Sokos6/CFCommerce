@@ -10,6 +10,7 @@ import {
   removeFromCart,
   clearCart,
 } from '../data/CartActionCreators';
+import { CartDetails } from './CartDetails';
 
 const mapStateToProps = (dataStore) => ({
   ...dataStore,
@@ -49,6 +50,12 @@ export const ShopConnector = connect(
                   routeProps.match.params.category
                 )}
               />
+            )}
+          />
+          <Route
+            path='/shop/cart'
+            render={(routeProps) => (
+              <CartDetails {...this.props} {...routeProps} />
             )}
           />
           <Redirect to='/shop/products' />

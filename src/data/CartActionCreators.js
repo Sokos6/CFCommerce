@@ -13,6 +13,11 @@ export const updateCartQuantity = (product, quantity) => ({
   payload: { product, quantity },
 });
 
+export const removeFromCart = (product) => ({
+  type: ActionTypes.CART_REMOVE,
+  payload: product,
+});
+
 export const clearCart = () => ({
   type: ActionTypes.CART_CLEAR,
 });
