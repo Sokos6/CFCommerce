@@ -9,6 +9,8 @@ import {
 } from 'react-router-dom';
 import { ShopConnector } from './shop/ShopConnector';
 
+//TODO: UPDATE CONTEXT API LINK CART SUMMARY/SHOP
+
 export default class App extends Component {
   render() {
     return (
