@@ -23,6 +23,6 @@ export class DataGetter extends Component {
   };
 
   render() {
-    return <>{this.props.children}</>;
+    return <React.Fragment>{this.props.children}</React.Fragment>;
   }
 }
