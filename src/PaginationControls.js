@@ -26,6 +26,7 @@ export class PaginationControls extends Component {
             navigate={this.props.navigateToPage}
           />
         </div>
+        
       </div>
     );
   }
