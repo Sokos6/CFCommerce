@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 export class PaginationButtons extends Component {
-
   getPageNumbers = () => {
     if (this.props.pageCount < 4) {
       return [...Array(this.props.pageCount + 1).keys()].slice(1);
@@ -18,7 +17,6 @@ export class PaginationButtons extends Component {
       ];
     }
   };
-
   render() {
     const current = this.props.currentPage;
     const pageCount = this.props.pageCount;
