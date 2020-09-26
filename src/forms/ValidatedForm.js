@@ -59,7 +59,7 @@ export class ValidatedForm extends Component {
 
   render() {
     return (
-      <React.Fragment>
+      <div>
         {this.props.formModel.map((m) => this.renderElement(m))}
         <div className='text-center'>
           <button
@@ -72,7 +72,7 @@ export class ValidatedForm extends Component {
             {this.props.submitText || 'Submit'}
           </button>
         </div>
-      </React.Fragment>
+      </div>
     );
   }
 }
