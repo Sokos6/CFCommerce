@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { ValidationError } from './ValidationError';
 import { GetMessages } from './ValidationMessages';
-
 export class ValidatedForm extends Component {
   constructor(props) {
     super(props);
@@ -48,7 +47,7 @@ export class ValidatedForm extends Component {
         <label>{modelItem.label}</label>
         <ValidationError errors={this.state.validationErrors[name]} />
         <input
-          className='form=control'
+          className='form-control'
           name={name}
           ref={this.registerRef}
           {...this.props.defaultAttrs}
@@ -60,7 +59,7 @@ export class ValidatedForm extends Component {
 
   render() {
     return (
-      <>
+      <React.Fragment>
         {this.props.formModel.map((m) => this.renderElement(m))}
         <div className='text-center'>
           <button
@@ -73,7 +72,7 @@ export class ValidatedForm extends Component {
             {this.props.submitText || 'Submit'}
           </button>
         </div>
-      </>
+      </React.Fragment>
     );
   }
 }
