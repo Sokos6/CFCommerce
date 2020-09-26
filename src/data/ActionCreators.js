@@ -1,4 +1,4 @@
-import { ActionTypes } from './Types';
+import { ActionTypes, DataTypes } from './Types';
 // import { data as phData } from './placeholderData';
 import { RestDataSource } from './RestDataSource';
 
