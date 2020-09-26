@@ -7,4 +7,4 @@ export const GetMessages = (elem) => {
     messages.push(`Invalid ${elem.type}`);
   }
   return messages;
-}
+};
