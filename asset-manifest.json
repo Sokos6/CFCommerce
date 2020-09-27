@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/CFCommerce/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/CFCommerce/static/js/main.80cd90bb.chunk.js",
-    "main.js.map": "/CFCommerce/static/js/main.80cd90bb.chunk.js.map",
-    "runtime-main.js": "/CFCommerce/static/js/runtime-main.8dd68a6a.js",
-    "runtime-main.js.map": "/CFCommerce/static/js/runtime-main.8dd68a6a.js.map",
-    "static/css/2.2d2fec6f.chunk.css": "/CFCommerce/static/css/2.2d2fec6f.chunk.css",
-    "static/js/2.b205a9f6.chunk.js": "/CFCommerce/static/js/2.b205a9f6.chunk.js",
-    "static/js/2.b205a9f6.chunk.js.map": "/CFCommerce/static/js/2.b205a9f6.chunk.js.map",
+    "main.js": "/CFCommerce/static/js/main.b93d2619.chunk.js",
+    "main.js.map": "/CFCommerce/static/js/main.b93d2619.chunk.js.map",
+    "runtime-main.js": "/CFCommerce/static/js/runtime-main.c67acb53.js",
+    "runtime-main.js.map": "/CFCommerce/static/js/runtime-main.c67acb53.js.map",
+    "static/css/2.a2f1a6cc.chunk.css": "/CFCommerce/static/css/2.a2f1a6cc.chunk.css",
+    "static/js/2.4b2b4e95.chunk.js": "/CFCommerce/static/js/2.4b2b4e95.chunk.js",
+    "static/js/2.4b2b4e95.chunk.js.map": "/CFCommerce/static/js/2.4b2b4e95.chunk.js.map",
     "index.html": "/CFCommerce/index.html",
-    "precache-manifest.2b714487713772b3f3d1d8b324891c4c.js": "/CFCommerce/precache-manifest.2b714487713772b3f3d1d8b324891c4c.js",
+    "precache-manifest.18c5a111c5a629e314db2efe5fdde35c.js": "/CFCommerce/precache-manifest.18c5a111c5a629e314db2efe5fdde35c.js",
     "service-worker.js": "/CFCommerce/service-worker.js",
-    "static/css/2.2d2fec6f.chunk.css.map": "/CFCommerce/static/css/2.2d2fec6f.chunk.css.map",
+    "static/css/2.a2f1a6cc.chunk.css.map": "/CFCommerce/static/css/2.a2f1a6cc.chunk.css.map",
     "static/css/main.5ecd60fb.chunk.css.map": "/CFCommerce/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.b205a9f6.chunk.js.LICENSE.txt": "/CFCommerce/static/js/2.b205a9f6.chunk.js.LICENSE.txt",
-    "static/media/all.min.css": "/CFCommerce/static/media/fa-solid-900.f9103ae5.eot"
+    "static/js/2.4b2b4e95.chunk.js.LICENSE.txt": "/CFCommerce/static/js/2.4b2b4e95.chunk.js.LICENSE.txt",
+    "static/media/all.min.css": "/CFCommerce/static/media/fa-solid-900.ee09ad75.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.8dd68a6a.js",
-    "static/css/2.2d2fec6f.chunk.css",
-    "static/js/2.b205a9f6.chunk.js",
+    "static/js/runtime-main.c67acb53.js",
+    "static/css/2.a2f1a6cc.chunk.css",
+    "static/js/2.4b2b4e95.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.80cd90bb.chunk.js"
+    "static/js/main.b93d2619.chunk.js"
   ]
 }
